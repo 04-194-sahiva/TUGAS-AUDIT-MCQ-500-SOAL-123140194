@@ -1,0 +1,902 @@
+$CATEGORY: Domain 4 - Information Systems Operations, Maintenance and Service Management
+
+::Domain4-01 IT Operations::
+Tujuan utama IT operations adalah:
+{
+=Mendukung operasional bisnis
+~Menghapus sistem
+~Menghindari audit
+~Mengganti user
+}
+
+::Domain4-02 Operations Control::
+Kontrol operasi bertujuan:
+{
+=Menjamin sistem berjalan efektif
+~Menghapus data
+~Mengganti sistem
+~Audit
+}
+
+::Domain4-03 Job Scheduling::
+Digunakan untuk:
+{
+=Menjalankan proses otomatis
+~Menghapus data
+~Mengganti user
+~Audit
+}
+
+::Domain4-04 Batch Processing::
+Batch processing berarti:
+{
+=Pemrosesan data dalam kelompok
+~Real-time
+~Manual
+~Random
+}
+
+::Domain4-05 Real-time Processing::
+Real-time berarti:
+{
+=Langsung diproses
+~Ditunda
+~Batch
+~Manual
+}
+
+::Domain4-06 IT Asset Management::
+Bertujuan:
+{
+=Mengelola aset TI
+~Menghapus aset
+~Menghindari audit
+~Mengganti user
+}
+
+::Domain4-07 Asset Lifecycle::
+Lifecycle aset meliputi:
+{
+=Acquire, use, dispose
+~Create saja
+~Delete saja
+~Audit saja
+}
+
+::Domain4-08 End User Computing::
+Risiko EUC:
+{
+=Kurang kontrol
+~Selalu aman
+~Efisien
+~Cepat
+}
+
+::Domain4-09 Data Governance::
+Data governance memastikan:
+{
+=Pengelolaan data baik
+~Menghapus data
+~Menghindari audit
+~Mengganti sistem
+}
+
+::Domain4-10 System Performance::
+Monitoring digunakan untuk:
+{
+=Menilai kinerja sistem
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-11 Incident Management::
+Tujuan:
+{
+=Memulihkan layanan cepat
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-12 Problem Management::
+Fokus:
+{
+=Akar masalah
+~Perbaikan cepat saja
+~Audit
+~Menghapus data
+}
+
+::Domain4-13 Change Management::
+Digunakan untuk:
+{
+=Mengelola perubahan
+~Menghapus perubahan
+~Audit
+~Mengganti sistem
+}
+
+::Domain4-14 Configuration Management::
+Digunakan untuk:
+{
+=Mengelola konfigurasi
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-15 Release Management::
+Bertujuan:
+{
+=Mengelola rilis sistem
+~Menghapus sistem
+~Audit
+~Mengganti user
+}
+
+::Domain4-16 Patch Management::
+Digunakan untuk:
+{
+=Memperbaiki vulnerability
+~Menghapus sistem
+~Audit
+~Mengganti user
+}
+
+::Domain4-17 SLA::
+SLA memastikan:
+{
+=Kualitas layanan
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-18 Capacity Management::
+Digunakan untuk:
+{
+=Menjamin kapasitas cukup
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-19 Availability Management::
+Fokus:
+{
+=Ketersediaan sistem
+~Menghapus sistem
+~Audit
+~Mengganti user
+}
+
+::Domain4-20 IT Service Continuity::
+Bertujuan:
+{
+=Menjaga layanan saat gangguan
+~Menghapus sistem
+~Audit
+~Mengganti user
+}
+
+::Domain4-21 Database Management::
+Digunakan untuk:
+{
+=Mengelola database
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-22 Backup::
+Backup bertujuan:
+{
+=Melindungi data
+~Menghapus data
+~Audit
+~Mengganti sistem
+}
+
+::Domain4-23 Restore::
+Restore digunakan untuk:
+{
+=Mengembalikan data
+~Menghapus data
+~Audit
+~Mengganti sistem
+}
+
+::Domain4-24 Backup Type::
+Full backup berarti:
+{
+=Backup seluruh data
+~Sebagian data
+~Incremental
+~Differential
+}
+
+::Domain4-25 Incremental Backup::
+Berarti:
+{
+=Backup perubahan terakhir
+~Semua data
+~Tidak ada data
+~Random
+}
+
+::Domain4-26 Differential Backup::
+Berarti:
+{
+=Perubahan sejak full backup
+~Semua data
+~Tidak ada data
+~Random
+}
+
+::Domain4-27 Business Continuity::
+BCP bertujuan:
+{
+=Menjaga bisnis tetap berjalan
+~Menghapus bisnis
+~Audit
+~Mengganti user
+}
+
+::Domain4-28 Disaster Recovery::
+DRP fokus pada:
+{
+=Pemulihan TI
+~Menghapus sistem
+~Audit
+~Mengganti user
+}
+
+::Domain4-29 BIA::
+BIA digunakan untuk:
+{
+=Menilai dampak bisnis
+~Menghapus data
+~Audit
+~Mengganti sistem
+}
+
+::Domain4-30 RTO::
+RTO adalah:
+{
+=Waktu pemulihan
+~Data hilang
+~Jumlah user
+~Jumlah server
+}
+$CATEGORY: Domain 4 - Information Systems Operations, Maintenance and Service Management
+
+::Domain4-31 RPO::
+RPO adalah:
+{
+=Jumlah data yang boleh hilang
+~Waktu pemulihan
+~Jumlah user
+~Jumlah server
+}
+
+::Domain4-32 Hot Site::
+Hot site adalah:
+{
+=Site siap pakai segera
+~Site kosong
+~Backup manual
+~Audit site
+}
+
+::Domain4-33 Cold Site::
+Cold site adalah:
+{
+=Site tanpa infrastruktur aktif
+~Site siap pakai
+~Site real-time
+~Audit site
+}
+
+::Domain4-34 Warm Site::
+Warm site adalah:
+{
+=Site dengan sebagian infrastruktur
+~Kosong
+~Full aktif
+~Audit
+}
+
+::Domain4-35 Failover::
+Failover berarti:
+{
+=Switch ke sistem cadangan
+~Menghapus sistem
+~Audit
+~Mengganti user
+}
+
+::Domain4-36 Redundancy::
+Redundansi bertujuan:
+{
+=Meningkatkan availability
+~Menghapus sistem
+~Audit
+~Mengganti user
+}
+
+::Domain4-37 High Availability::
+HA berarti:
+{
+=Sistem selalu tersedia
+~Tidak tersedia
+~Manual
+~Audit
+}
+
+::Domain4-38 Incident Priority::
+Prioritas incident berdasarkan:
+{
+=Impact dan urgency
+~Jumlah user
+~Jumlah data
+~Jumlah server
+}
+
+::Domain4-39 Escalation::
+Escalation dilakukan jika:
+{
+=Incident tidak terselesaikan
+~Selesai
+~Diabaikan
+~Dihapus
+}
+
+::Domain4-40 Ticketing System::
+Digunakan untuk:
+{
+=Manajemen incident
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-41 Monitoring Tool::
+Digunakan untuk:
+{
+=Memantau sistem
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-42 Log Management::
+Log digunakan untuk:
+{
+=Audit trail
+~Menghapus data
+~Audit saja
+~Mengganti user
+}
+
+::Domain4-43 Capacity Planning::
+Digunakan untuk:
+{
+=Perencanaan kapasitas
+~Menghapus data
+~Audit
+~Mengganti user
+}
+
+::Domain4-44 Performance Issue::
+Masalah performa biasanya karena:
+{
+=Resource tidak cukup
+~Data aman
+~Audit
+~User sedikit
+}
+
+::Domain4-45 Job Failure::
+Jika job gagal:
+{
+=Perlu investigasi
+~Diabaikan
+~Dihapus
+~Diganti user
+}
+
+::Domain4-46 Interface Error::
+Error interface menyebabkan:
+{
+=Data tidak sinkron
+~Aman
+~Audit
+~Efisien
+}
+
+::Domain4-47 EUC Risk::
+Spreadsheet user tanpa kontrol:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-48 Database Backup::
+Harus:
+{
+=Dilakukan berkala
+~Tidak perlu
+~Sekali saja
+~Random
+}
+
+::Domain4-49 Restore Testing::
+Harus:
+{
+=Diuji berkala
+~Tidak perlu
+~Sekali saja
+~Random
+}
+
+::Domain4-50 DR Test::
+DRP harus:
+{
+=Diuji berkala
+~Tidak perlu
+~Sekali saja
+~Random
+}
+
+::Domain4-51 Scenario Incident::
+Incident tidak ditangani:
+{
+=Gangguan layanan
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-52 Scenario Problem::
+Problem tidak dianalisis:
+{
+=Berulang
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-53 Scenario Change::
+Change tanpa kontrol:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-54 Scenario Backup::
+Tidak ada backup:
+{
+=Data hilang
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-55 Scenario Restore::
+Restore gagal:
+{
+=Downtime lama
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-56 Scenario BCP::
+Tidak ada BCP:
+{
+=Bisnis berhenti
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-57 Scenario DRP::
+DRP tidak diuji:
+{
+=Tidak efektif
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-58 Scenario BIA::
+BIA tidak dilakukan:
+{
+=Prioritas tidak jelas
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-59 Scenario RTO::
+RTO terlalu lama:
+{
+=Bisnis terganggu
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-60 Scenario RPO::
+RPO besar:
+{
+=Data loss besar
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-61 Scenario Monitoring::
+Monitoring tidak ada:
+{
+=Masalah tidak terdeteksi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-62 Scenario Log::
+Log tidak disimpan:
+{
+=Tidak ada audit trail
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-63 Scenario Capacity::
+Kapasitas kurang:
+{
+=Performa turun
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-64 Scenario Performance::
+Sistem lambat:
+{
+=Perlu tuning
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-65 Scenario Job::
+Job gagal:
+{
+=Perlu retry
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-66 Scenario Interface::
+Interface gagal:
+{
+=Data error
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-67 Scenario EUC::
+User membuat aplikasi sendiri:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-68 Scenario DB::
+Database tidak di-maintain:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-69 Scenario Backup Test::
+Backup tidak diuji:
+{
+=Tidak valid
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-70 Scenario DR Test::
+DR tidak diuji:
+{
+=Tidak siap bencana
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-71 Scenario Incident Priority::
+Prioritas salah:
+{
+=Penanganan salah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-72 Scenario Escalation::
+Tidak ada escalation:
+{
+=Masalah lama
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-73 Scenario Ticket::
+Tidak ada ticket:
+{
+=Tracking sulit
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-74 Scenario Monitoring Tool::
+Tool tidak ada:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-75 Scenario Log Management::
+Log tidak dianalisis:
+{
+=Ancaman tidak terlihat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-76 Scenario Capacity Plan::
+Tidak ada plan:
+{
+=Overload
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-77 Scenario Performance Mgmt::
+Tidak ada monitoring:
+{
+=Kinerja buruk
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-78 Scenario SLA::
+SLA tidak dipenuhi:
+{
+=Layanan buruk
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-79 Scenario Availability::
+Sistem sering down:
+{
+=Availability rendah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-80 Scenario Continuity::
+Tidak ada continuity:
+{
+=Bisnis terganggu
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-81 Scenario Asset::
+Aset tidak dikelola:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-82 Scenario Lifecycle::
+Lifecycle tidak jelas:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-83 Scenario Job Schedule::
+Schedule salah:
+{
+=Job gagal
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-84 Scenario Batch::
+Batch error:
+{
+=Data salah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-85 Scenario Real-time::
+Real-time gagal:
+{
+=Transaksi terganggu
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-86 Scenario Failover::
+Failover gagal:
+{
+=Downtime lama
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-87 Scenario Redundancy::
+Tidak ada redundancy:
+{
+=Single point failure
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-88 Scenario HA::
+Tidak ada HA:
+{
+=Downtime tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-89 Scenario DR Site::
+DR site tidak siap:
+{
+=Recovery gagal
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-90 Scenario Backup Strategy::
+Strategi buruk:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-91 Scenario Restore Plan::
+Tidak ada plan:
+{
+=Recovery lambat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-92 Scenario Incident Mgmt::
+Tidak ada proses:
+{
+=Chaos
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-93 Scenario Problem Mgmt::
+Tidak ada root cause:
+{
+=Masalah berulang
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-94 Scenario Change Mgmt::
+Tidak ada kontrol:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-95 Scenario Config Mgmt::
+Config tidak akurat:
+{
+=Error sistem
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-96 Scenario Release Mgmt::
+Release kacau:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-97 Scenario Patch Mgmt::
+Patch tidak update:
+{
+=Vulnerability tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-98 Scenario Service Level::
+Tidak ada SLA:
+{
+=Layanan tidak jelas
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-99 Scenario Database::
+DB corrupt:
+{
+=Data hilang
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain4-100 Objective Domain4::
+Tujuan domain ini:
+{
+=Menjamin operasi TI berjalan efektif dan berkelanjutan
+~Menghapus sistem
+~Menghindari audit
+~Mengganti user
+}
