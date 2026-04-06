@@ -1,0 +1,902 @@
+$CATEGORY: Domain 2 - Governance and Management of IT
+
+::Domain2-01 IT Governance::
+Tujuan utama IT governance adalah:
+{
+=Menyelaraskan TI dengan tujuan bisnis
+~Menggantikan manajemen
+~Menghapus risiko TI
+~Mengurangi penggunaan TI
+}
+
+::Domain2-02 Governance Framework::
+Framework yang umum digunakan untuk IT governance adalah:
+{
+=COBIT
+~ITIL
+~ISO 9001
+~PMBOK
+}
+
+::Domain2-03 Responsibility::
+Tanggung jawab IT governance berada pada:
+{
+=Board dan manajemen senior
+~User
+~Auditor
+~Vendor
+}
+
+::Domain2-04 Strategic Alignment::
+Strategic alignment berarti:
+{
+=TI mendukung strategi bisnis
+~TI berdiri sendiri
+~TI menggantikan bisnis
+~TI tidak penting
+}
+
+::Domain2-05 Value Delivery::
+Value delivery memastikan:
+{
+=TI memberikan nilai bisnis
+~TI murah
+~TI cepat
+~TI sederhana
+}
+
+::Domain2-06 Risk Management::
+Risk management bertujuan:
+{
+=Mengelola risiko TI
+~Menghapus semua risiko
+~Menghindari TI
+~Mengganti sistem
+}
+
+::Domain2-07 Resource Management::
+Resource management fokus pada:
+{
+=Penggunaan optimal sumber daya TI
+~Menghapus resource
+~Menambah biaya
+~Menghindari TI
+}
+
+::Domain2-08 Performance Measurement::
+Performance measurement menggunakan:
+{
+=KPI
+~Firewall
+~Server
+~Database
+}
+
+::Domain2-09 KPI::
+KPI digunakan untuk:
+{
+=Mengukur kinerja
+~Menghapus risiko
+~Mengganti audit
+~Menyimpan data
+}
+
+::Domain2-10 Policy::
+Policy adalah:
+{
+=Aturan tingkat tinggi
+~Prosedur detail
+~Instruksi teknis
+~Program
+}
+
+::Domain2-11 Procedure::
+Procedure adalah:
+{
+=Langkah detail pelaksanaan
+~Aturan umum
+~Strategi
+~Visi
+}
+
+::Domain2-12 Standard::
+Standard adalah:
+{
+=Ketentuan wajib
+~Opsional
+~Saran
+~Dokumen lama
+}
+
+::Domain2-13 Guideline::
+Guideline bersifat:
+{
+=Opsional
+~Wajib
+~Keras
+~Mengikat hukum
+}
+
+::Domain2-14 IT Strategy::
+IT strategy harus:
+{
+=Selaras dengan bisnis
+~Terpisah dari bisnis
+~Lebih penting dari bisnis
+~Tidak perlu
+}
+
+::Domain2-15 Steering Committee::
+IT steering committee bertugas:
+{
+=Mengawasi strategi TI
+~Menghapus TI
+~Melakukan coding
+~Mengganti user
+}
+
+::Domain2-16 Segregation Governance::
+Dalam governance, SoD bertujuan:
+{
+=Mencegah konflik kepentingan
+~Mempercepat kerja
+~Mengurangi biaya
+~Menghapus audit
+}
+
+::Domain2-17 Outsourcing Risk::
+Risiko outsourcing adalah:
+{
+=Kehilangan kontrol
+~Biaya nol
+~Risiko nol
+~Efisiensi sempurna
+}
+
+::Domain2-18 Vendor Management::
+Vendor harus:
+{
+=Dievaluasi secara berkala
+~Dipilih sekali saja
+~Diabaikan
+~Diganti terus
+}
+
+::Domain2-19 SLA::
+SLA adalah:
+{
+=Perjanjian layanan
+~Kontrak hardware
+~Software lisensi
+~Audit report
+}
+
+::Domain2-20 SLA Metrics::
+SLA mengukur:
+{
+=Kinerja layanan
+~Jumlah user
+~Jumlah data
+~Jumlah server
+}
+
+::Domain2-21 Compliance::
+Compliance berarti:
+{
+=Patuh terhadap regulasi
+~Menghindari aturan
+~Menghapus hukum
+~Mengganti standar
+}
+
+::Domain2-22 Regulatory Requirement::
+Regulasi berasal dari:
+{
+=Pemerintah
+~User
+~Auditor
+~Vendor
+}
+
+::Domain2-23 Risk Appetite::
+Risk appetite ditentukan oleh:
+{
+=Manajemen
+~Auditor
+~User
+~Vendor
+}
+
+::Domain2-24 Risk Tolerance::
+Risk tolerance adalah:
+{
+=Batas risiko yang diterima
+~Risiko nol
+~Risiko tinggi
+~Risiko tanpa kontrol
+}
+
+::Domain2-25 Control Framework::
+Control framework membantu:
+{
+=Mengelola kontrol TI
+~Menghapus kontrol
+~Menghindari audit
+~Mengganti sistem
+}
+
+::Domain2-26 COBIT Goal::
+COBIT bertujuan:
+{
+=Mengoptimalkan governance TI
+~Menghapus TI
+~Mengganti bisnis
+~Mengurangi user
+}
+
+::Domain2-27 IT Balanced Scorecard::
+Digunakan untuk:
+{
+=Mengukur performa TI
+~Menghapus risiko
+~Mengganti audit
+~Mengurangi biaya
+}
+
+::Domain2-28 Organizational Structure::
+Struktur organisasi harus:
+{
+=Jelas dan terdokumentasi
+~Tidak perlu jelas
+~Rahasia
+~Sementara
+}
+
+::Domain2-29 Roles and Responsibilities::
+Harus:
+{
+=Terdefinisi jelas
+~Diabaikan
+~Random
+~Berubah terus
+}
+
+::Domain2-30 IT Investment::
+Investasi TI harus:
+{
+=Memberikan nilai bisnis
+~Murah saja
+~Cepat saja
+~Banyak saja
+}
+$CATEGORY: Domain 2 - Governance and Management of IT
+
+::Domain2-31 IT Portfolio Management::
+Tujuan IT portfolio management adalah:
+{
+=Mengelola investasi TI secara optimal
+~Menghapus semua proyek
+~Mengurangi user
+~Mengganti sistem
+}
+
+::Domain2-32 Project Prioritization::
+Prioritas proyek ditentukan berdasarkan:
+{
+=Nilai bisnis dan risiko
+~Ukuran tim
+~Jumlah user
+~Biaya saja
+}
+
+::Domain2-33 IT Budgeting::
+Anggaran TI harus:
+{
+=Selaras dengan strategi bisnis
+~Terpisah dari bisnis
+~Tidak perlu
+~Random
+}
+
+::Domain2-34 IT Resource Allocation::
+Resource allocation harus:
+{
+=Efisien dan efektif
+~Boros
+~Random
+~Tidak terencana
+}
+
+::Domain2-35 Vendor Selection::
+Pemilihan vendor harus:
+{
+=Berdasarkan kebutuhan bisnis
+~Harga termurah saja
+~Rekomendasi user
+~Tanpa evaluasi
+}
+
+::Domain2-36 Contract Management::
+Kontrak vendor harus:
+{
+=Jelas dan terukur
+~Umum saja
+~Tidak perlu detail
+~Fleksibel tanpa aturan
+}
+
+::Domain2-37 SLA Review::
+SLA harus:
+{
+=Ditinjau secara berkala
+~Dibiarkan tetap
+~Tidak digunakan
+~Diganti terus
+}
+
+::Domain2-38 IT Service Management::
+ITSM bertujuan:
+{
+=Meningkatkan layanan TI
+~Menghapus TI
+~Mengganti user
+~Mengurangi kontrol
+}
+
+::Domain2-39 ITIL::
+ITIL fokus pada:
+{
+=Manajemen layanan TI
+~Audit
+~Security saja
+~Database
+}
+
+::Domain2-40 Incident Management::
+Tujuan incident management:
+{
+=Memulihkan layanan cepat
+~Menghapus data
+~Menghindari user
+~Mengganti sistem
+}
+
+::Domain2-41 Problem Management::
+Problem management fokus:
+{
+=Mengatasi akar masalah
+~Memperbaiki cepat saja
+~Menghapus data
+~Menghindari audit
+}
+
+::Domain2-42 Change Management::
+Tujuan change management:
+{
+=Mengontrol perubahan
+~Menghapus perubahan
+~Menghindari perubahan
+~Mempercepat tanpa kontrol
+}
+
+::Domain2-43 Emergency Change::
+Emergency change harus:
+{
+=Disetujui cepat tapi tetap dikontrol
+~Langsung dilakukan tanpa kontrol
+~Ditolak
+~Diabaikan
+}
+
+::Domain2-44 Configuration Management::
+Digunakan untuk:
+{
+=Mengelola aset TI
+~Menghapus data
+~Mengganti user
+~Menghindari audit
+}
+
+::Domain2-45 CMDB::
+CMDB berisi:
+{
+=Data konfigurasi aset TI
+~Data user
+~Data audit
+~Data transaksi
+}
+
+::Domain2-46 IT Performance Monitoring::
+Digunakan untuk:
+{
+=Memantau kinerja TI
+~Menghapus data
+~Mengganti sistem
+~Menghindari audit
+}
+
+::Domain2-47 Dashboard::
+Dashboard membantu:
+{
+=Visualisasi KPI
+~Menghapus data
+~Mengganti user
+~Menyimpan log
+}
+
+::Domain2-48 Benchmarking::
+Benchmarking digunakan untuk:
+{
+=Membandingkan kinerja
+~Menghapus data
+~Menghindari audit
+~Mengganti sistem
+}
+
+::Domain2-49 Maturity Model::
+Digunakan untuk:
+{
+=Menilai tingkat kematangan
+~Menghapus kontrol
+~Menghindari audit
+~Mengganti user
+}
+
+::Domain2-50 COBIT Maturity::
+Level tertinggi maturity:
+{
+=Optimized
+~Initial
+~Repeatable
+~Defined
+}
+
+::Domain2-51 Enterprise Architecture::
+EA bertujuan:
+{
+=Menyelaraskan TI dan bisnis
+~Menghapus TI
+~Mengganti sistem
+~Menghindari audit
+}
+
+::Domain2-52 Architecture Review::
+Dilakukan untuk:
+{
+=Menilai kesesuaian sistem
+~Menghapus sistem
+~Menghindari audit
+~Mengganti user
+}
+
+::Domain2-53 Risk Register::
+Risk register berisi:
+{
+=Daftar risiko
+~Daftar user
+~Daftar server
+~Daftar aplikasi
+}
+
+::Domain2-54 Risk Mitigation::
+Mitigasi risiko berarti:
+{
+=Mengurangi risiko
+~Menghapus audit
+~Menghindari kontrol
+~Mengganti sistem
+}
+
+::Domain2-55 Risk Transfer::
+Contoh risk transfer:
+{
+=Asuransi
+~Menghapus sistem
+~Menghindari audit
+~Mengganti user
+}
+
+::Domain2-56 Risk Acceptance::
+Risk acceptance berarti:
+{
+=Menerima risiko
+~Menghapus risiko
+~Menghindari risiko
+~Mengganti sistem
+}
+
+::Domain2-57 Risk Avoidance::
+Risk avoidance berarti:
+{
+=Menghindari aktivitas risiko
+~Menerima risiko
+~Mengurangi risiko
+~Memindahkan risiko
+}
+
+::Domain2-58 Policy Review::
+Policy harus:
+{
+=Ditinjau berkala
+~Tidak berubah
+~Diabaikan
+~Rahasia
+}
+
+::Domain2-59 Compliance Audit::
+Dilakukan untuk:
+{
+=Menilai kepatuhan
+~Menghapus data
+~Menghindari audit
+~Mengganti sistem
+}
+
+::Domain2-60 Legal Requirement::
+Kepatuhan hukum:
+{
+=Wajib
+~Opsional
+~Tidak penting
+~Diabaikan
+}
+
+::Domain2-61 Data Governance::
+Bertujuan:
+{
+=Mengelola data organisasi
+~Menghapus data
+~Menghindari audit
+~Mengganti sistem
+}
+
+::Domain2-62 Data Ownership::
+Data owner bertanggung jawab:
+{
+=Klasifikasi dan penggunaan data
+~Backup saja
+~Audit saja
+~Server saja
+}
+
+::Domain2-63 Data Steward::
+Data steward bertugas:
+{
+=Menjaga kualitas data
+~Menghapus data
+~Mengganti sistem
+~Menghindari audit
+}
+
+::Domain2-64 Information Security Governance::
+Fokus pada:
+{
+=Keamanan informasi
+~Audit saja
+~Database saja
+~Network saja
+}
+
+::Domain2-65 Security Policy::
+Harus:
+{
+=Selaras dengan bisnis
+~Terpisah
+~Tidak perlu
+~Rahasia saja
+}
+
+::Domain2-66 Threat Evaluation::
+Threat harus:
+{
+=Diidentifikasi dan dinilai
+~Diabaikan
+~Dihapus
+~Diganti
+}
+
+::Domain2-67 Emerging Technology Risk::
+Teknologi baru:
+{
+=Memiliki risiko dan peluang
+~Tanpa risiko
+~Selalu aman
+~Tidak penting
+}
+
+::Domain2-68 Cloud Governance::
+Cloud harus:
+{
+=Dikelola dengan kontrol
+~Bebas
+~Tanpa aturan
+~Tidak perlu
+}
+
+::Domain2-69 Third-party Risk::
+Risiko pihak ketiga:
+{
+=Harus dikelola
+~Diabaikan
+~Tidak ada
+~Selalu aman
+}
+
+::Domain2-70 Audit Role Governance::
+Auditor harus:
+{
+=Independen
+~Mengelola TI
+~Mengganti user
+~Menjalankan sistem
+}
+
+::Domain2-71 Scenario Governance::
+Jika TI tidak selaras bisnis:
+{
+=Perlu perbaikan governance
+~Tidak masalah
+~Dihapus
+~Diganti user
+}
+
+::Domain2-72 Scenario Vendor::
+Vendor tidak memenuhi SLA:
+{
+=Perlu evaluasi
+~Dibiarkan
+~Diperpanjang
+~Diabaikan
+}
+
+::Domain2-73 Scenario KPI::
+KPI tidak tercapai:
+{
+=Perlu analisis
+~Diabaikan
+~Dihapus
+~Diganti user
+}
+
+::Domain2-74 Scenario Risk::
+Risiko tinggi:
+{
+=Perlu mitigasi
+~Diterima langsung
+~Diabaikan
+~Dihapus
+}
+
+::Domain2-75 Scenario Policy::
+Policy tidak dipatuhi:
+{
+=Perlu tindakan
+~Diabaikan
+~Dihapus
+~Diganti user
+}
+
+::Domain2-76 Scenario Compliance::
+Tidak compliant:
+{
+=Risiko hukum
+~Aman
+~Tidak masalah
+~Efisien
+}
+
+::Domain2-77 Scenario IT Strategy::
+IT tidak mendukung bisnis:
+{
+=Perlu alignment
+~Dibiarkan
+~Dihapus
+~Diganti user
+}
+
+::Domain2-78 Scenario EA::
+Arsitektur tidak konsisten:
+{
+=Perlu review
+~Diabaikan
+~Dihapus
+~Diganti user
+}
+
+::Domain2-79 Scenario Risk Register::
+Risk tidak dicatat:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-80 Scenario Vendor Risk::
+Vendor gagal:
+{
+=Risiko operasional
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-81 Scenario Cloud::
+Cloud tanpa kontrol:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-82 Scenario Data Governance::
+Data tidak dikelola:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-83 Scenario Security::
+Security policy lemah:
+{
+=Risiko meningkat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-84 Scenario Audit::
+Audit tidak independen:
+{
+=Hasil tidak objektif
+~Lebih cepat
+~Lebih murah
+~Lebih mudah
+}
+
+::Domain2-85 Scenario Monitoring::
+Monitoring tidak ada:
+{
+=Risiko tidak terdeteksi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-86 Scenario SLA::
+SLA tidak jelas:
+{
+=Konflik layanan
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-87 Scenario ITSM::
+ITSM buruk:
+{
+=Layanan terganggu
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-88 Scenario Change::
+Change tanpa kontrol:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-89 Scenario CMDB::
+CMDB tidak akurat:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-90 Scenario KPI Monitoring::
+KPI tidak dimonitor:
+{
+=Kinerja tidak diketahui
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-91 Scenario Risk Appetite::
+Risk appetite tidak jelas:
+{
+=Keputusan sulit
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-92 Scenario Governance Structure::
+Struktur tidak jelas:
+{
+=Peran tidak jelas
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-93 Scenario Policy Review::
+Policy tidak diupdate:
+{
+=Tidak relevan
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-94 Scenario Compliance Audit::
+Tidak ada audit:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-95 Scenario Vendor Contract::
+Kontrak lemah:
+{
+=Risiko meningkat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-96 Scenario EA Alignment::
+EA tidak align:
+{
+=Inefisiensi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-97 Scenario IT Investment::
+Investasi tidak bernilai:
+{
+=Waste
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-98 Scenario Resource::
+Resource tidak optimal:
+{
+=Inefisiensi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-99 Scenario Risk Management::
+Risk tidak dikelola:
+{
+=Ancaman meningkat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain2-100 Governance Objective::
+Tujuan governance adalah:
+{
+=Value, risk, dan kontrol
+~Biaya saja
+~Teknologi saja
+~User saja
+}
