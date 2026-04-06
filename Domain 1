@@ -1,0 +1,898 @@
+::Domain1-01 Audit Definition::
+Apa tujuan utama audit sistem informasi?
+{
+=Menilai apakah sistem informasi aman, terkontrol, dan memberikan nilai
+~Menghapus semua risiko TI
+~Meningkatkan profit perusahaan
+~Mengganti sistem lama
+}
+
+::Domain1-02 Audit Scope::
+Ruang lingkup audit SI mencakup:
+{
+=Teknologi, proses, dan manusia
+~Hanya perangkat keras
+~Hanya software
+~Hanya data
+}
+
+::Domain1-03 ISACA Standard::
+Standar ISACA yang mengatur bukti audit adalah:
+{
+=S14
+~S1
+~S5
+~S7
+}
+
+::Domain1-04 Audit Evidence::
+Bukti audit harus:
+{
+=Sufficient dan reliable
+~Cepat dikumpulkan
+~Murah
+~Berupa opini
+}
+
+::Domain1-05 Evidence Type::
+Bukti audit berupa inspeksi fisik disebut:
+{
+=Physical evidence
+~Documentary evidence
+~Testimonial evidence
+~Analytical evidence
+}
+
+::Domain1-06 Evidence Reliability::
+Bukti paling lemah adalah:
+{
+=Testimonial
+~Physical
+~External documentary
+~System log
+}
+
+::Domain1-07 Documentary Evidence::
+Contoh documentary evidence adalah:
+{
+=Log file
+~Observasi langsung
+~Wawancara
+~Perhitungan statistik
+}
+
+::Domain1-08 Analytical Evidence::
+Analisis tren termasuk:
+{
+=Analytical evidence
+~Physical evidence
+~Testimonial evidence
+~Direct observation
+}
+
+::Domain1-09 Control Type::
+Kontrol untuk mencegah insiden adalah:
+{
+=Preventive
+~Detective
+~Corrective
+~Reactive
+}
+
+::Domain1-10 Detective Control::
+Contoh kontrol detektif:
+{
+=SIEM monitoring
+~Firewall
+~Access control
+~Encryption
+}
+
+::Domain1-11 Corrective Control::
+Contoh corrective control:
+{
+=Backup restore
+~Firewall
+~Antivirus
+~Authentication
+}
+
+::Domain1-12 Compensating Control::
+Compensating control digunakan ketika:
+{
+=Kontrol utama tidak feasible
+~Kontrol utama berhasil
+~Tidak ada risiko
+~Audit selesai
+}
+
+::Domain1-13 GITC::
+General IT Controls berfungsi sebagai:
+{
+=Fondasi application controls
+~Pengganti audit
+~Kontrol sementara
+~Dokumentasi
+}
+
+::Domain1-14 Application Control::
+Application control fokus pada:
+{
+=Integritas proses bisnis
+~Jaringan
+~Server
+~Hardware
+}
+
+::Domain1-15 Compliance Testing::
+Compliance testing bertujuan:
+{
+=Menguji apakah kontrol berjalan
+~Menghitung data
+~Menghapus error
+~Meningkatkan performa
+}
+
+::Domain1-16 Substantive Testing::
+Substantive testing fokus pada:
+{
+=Akurasi data
+~Kepatuhan prosedur
+~Dokumentasi
+~Interview
+}
+
+::Domain1-17 Walkthrough::
+Walkthrough digunakan untuk:
+{
+=Memahami proses end-to-end
+~Menghapus kontrol
+~Menghindari audit
+~Mengganti testing
+}
+
+::Domain1-18 Sampling::
+Tujuan sampling adalah:
+{
+=Mewakili populasi
+~Menghilangkan data
+~Mengurangi risiko
+~Menghapus audit
+}
+
+::Domain1-19 Statistical Sampling::
+Statistical sampling:
+{
+=Memiliki confidence level terukur
+~Tidak akurat
+~Tidak bisa digeneralisasi
+~Subjektif
+}
+
+::Domain1-20 Non-Statistical Sampling::
+Non-statistical sampling:
+{
+=Berdasarkan judgment auditor
+~Selalu akurat
+~Menggunakan rumus
+~Tidak fleksibel
+}
+
+::Domain1-21 CAATs::
+CAATs digunakan untuk:
+{
+=Analisis data audit
+~Menghapus data
+~Menyimpan data
+~Mengganti auditor
+}
+
+::Domain1-22 Risk Based Audit::
+Risk-based audit planning fokus pada:
+{
+=Area berisiko tinggi
+~Semua area sama
+~Area kecil
+~Area tanpa risiko
+}
+
+::Domain1-23 Audit Risk::
+Audit Risk terdiri dari:
+{
+=IR, CR, DR
+~CPU, RAM, Disk
+~CIA triad
+~Policy, Procedure, Standard
+}
+
+::Domain1-24 Inherent Risk::
+Inherent risk adalah:
+{
+=Risiko tanpa kontrol
+~Risiko setelah kontrol
+~Risiko audit
+~Risiko nol
+}
+
+::Domain1-25 Control Risk::
+Control risk terjadi jika:
+{
+=Kontrol gagal
+~Audit gagal
+~Data hilang
+~User logout
+}
+
+::Domain1-26 Detection Risk::
+Detection risk adalah:
+{
+=Risiko auditor gagal mendeteksi
+~Risiko sistem gagal
+~Risiko user error
+~Risiko jaringan
+}
+
+::Domain1-27 Audit Charter::
+Audit charter berfungsi:
+{
+=Memberikan otoritas audit
+~Menghapus audit
+~Mengatur IT
+~Menyimpan data
+}
+
+::Domain1-28 Audit Program::
+Audit program berisi:
+{
+=Prosedur audit detail
+~Data transaksi
+~Password
+~Log sistem
+}
+
+::Domain1-29 Materiality::
+Materiality adalah:
+{
+=Tingkat signifikansi temuan
+~Jumlah user
+~Ukuran database
+~Jumlah server
+}
+
+::Domain1-30 Audit Universe::
+Audit universe adalah:
+{
+=Daftar semua area audit
+~Data audit
+~Tim audit
+~Software audit
+}
+
+::Domain1-31 Working Papers::
+Working papers harus:
+{
+=Complete dan accurate
+~Pendek
+~Rahasia publik
+~Tidak perlu disimpan
+}
+
+::Domain1-32 Working Paper Function::
+Working papers digunakan untuk:
+{
+=Dokumentasi audit
+~Menghapus data
+~Menyimpan password
+~Mengganti laporan
+}
+
+::Domain1-33 Interview Technique::
+Open-ended question digunakan untuk:
+{
+=Menggali informasi
+~Jawaban ya/tidak
+~Menghemat waktu
+~Menghindari diskusi
+}
+
+::Domain1-34 Closed Question::
+Closed question digunakan untuk:
+{
+=Konfirmasi fakta
+~Diskusi panjang
+~Analisis
+~Observasi
+}
+
+::Domain1-35 Observation::
+Observation lebih andal karena:
+{
+=Melihat langsung proses
+~Lebih cepat
+~Lebih murah
+~Lebih mudah
+}
+
+::Domain1-36 Data Analytics::
+Keunggulan data analytics:
+{
+=Analisis 100% data
+~Menghapus risiko
+~Mengganti audit
+~Mengurangi data
+}
+
+::Domain1-37 Data Cleansing::
+Data cleansing bertujuan:
+{
+=Membersihkan data
+~Menghapus semua data
+~Mengganti sistem
+~Menyimpan data
+}
+
+::Domain1-38 Data Validation::
+Data validation memastikan:
+{
+=Akurasi data
+~Kecepatan data
+~Ukuran data
+~Jumlah user
+}
+
+::Domain1-39 Benford Law::
+Benford’s Law digunakan untuk:
+{
+=Mendeteksi fraud
+~Menghapus data
+~Backup data
+~Encrypt data
+}
+
+::Domain1-40 Continuous Auditing::
+Continuous auditing dilakukan oleh:
+{
+=Fungsi audit
+~Manajemen
+~User
+~Vendor
+}
+
+::Domain1-41 Continuous Monitoring::
+Continuous monitoring dilakukan oleh:
+{
+=Manajemen
+~Auditor
+~Vendor
+~User
+}
+
+::Domain1-42 KPI Monitoring::
+KPI digunakan untuk:
+{
+=Mengukur kinerja
+~Menghapus risiko
+~Mengganti audit
+~Mengurangi biaya
+}
+
+::Domain1-43 Evidence Quality::
+Bukti relevan berarti:
+{
+=Berkaitan dengan tujuan audit
+~Banyak jumlahnya
+~Murah
+~Cepat
+}
+
+::Domain1-44 Reliable Evidence::
+Bukti reliable berasal dari:
+{
+=Pihak independen
+~Internal saja
+~Wawancara
+~Opini
+}
+
+::Domain1-45 Sufficient Evidence::
+Sufficient berarti:
+{
+=Cukup jumlahnya
+~Cepat
+~Murah
+~Sedikit
+}
+
+::Domain1-46 Useful Evidence::
+Useful berarti:
+{
+=Membantu tujuan audit
+~Mudah
+~Cepat
+~Murah
+}
+
+::Domain1-47 Audit Reporting::
+Laporan audit harus:
+{
+=Jelas dan objektif
+~Panjang saja
+~Singkat saja
+~Rahasia semua
+}
+
+::Domain1-48 Audit Follow-up::
+Audit follow-up bertujuan:
+{
+=Memastikan rekomendasi diterapkan
+~Menghapus laporan
+~Menambah risiko
+~Mengurangi audit
+}
+
+::Domain1-49 Audit Communication::
+Komunikasi audit harus:
+{
+=Efektif ke stakeholder
+~Hanya internal
+~Hanya auditor
+~Tidak perlu
+}
+
+::Domain1-50 Audit Objective::
+Audit objective harus:
+{
+=Jelas dan measurable
+~Umum
+~Rahasia
+~Tidak perlu
+}
+::Domain1-51 Risk Assessment::
+Saat melakukan risk assessment, langkah pertama adalah:
+{
+=Mengidentifikasi aset dan risiko
+~Menghapus kontrol
+~Melakukan audit
+~Menyusun laporan
+}
+
+::Domain1-52 Risk Impact::
+Dampak risiko diukur berdasarkan:
+{
+=Likelihood dan impact
+~Jumlah user
+~Jumlah server
+~Jumlah aplikasi
+}
+
+::Domain1-53 Audit Planning::
+Faktor paling penting dalam audit planning adalah:
+{
+=Risk assessment
+~Jumlah auditor
+~Durasi audit
+~Biaya audit
+}
+
+::Domain1-54 Audit Evidence Scenario::
+Auditor mendapatkan bukti dari pihak ketiga. Bukti ini:
+{
+=Lebih reliable
+~Kurang reliable
+~Tidak valid
+~Tidak relevan
+}
+
+::Domain1-55 Audit Sampling Scenario::
+Jika populasi besar dan homogen, auditor sebaiknya:
+{
+=Menggunakan sampling
+~Mengaudit semua data
+~Menghapus data
+~Menghindari audit
+}
+
+::Domain1-56 Control Weakness::
+Jika kontrol tidak berjalan, maka:
+{
+=Control risk meningkat
+~Audit risk nol
+~Detection risk nol
+~Inherent risk nol
+}
+
+::Domain1-57 Detection Risk Scenario::
+Auditor tidak menemukan kesalahan yang ada, ini adalah:
+{
+=Detection risk
+~Control risk
+~Inherent risk
+~Residual risk
+}
+
+::Domain1-58 Inherent Risk Scenario::
+Sistem baru tanpa pengalaman sebelumnya memiliki:
+{
+=Inherent risk tinggi
+~Control risk rendah
+~Detection risk rendah
+~Risk nol
+}
+
+::Domain1-59 Audit Charter Scenario::
+Tanpa audit charter, auditor:
+{
+=Tidak memiliki otoritas formal
+~Bisa audit bebas
+~Tidak perlu audit
+~Bisa mengganti manajemen
+}
+
+::Domain1-60 Independence::
+Independensi auditor penting untuk:
+{
+=Objektivitas
+~Kecepatan
+~Biaya
+~Jumlah audit
+}
+
+::Domain1-61 Conflict of Interest::
+Auditor mengaudit sistem yang dia buat sendiri:
+{
+=Tidak independen
+~Sangat efisien
+~Lebih cepat
+~Lebih murah
+}
+
+::Domain1-62 Evidence Corroboration::
+Bukti audit harus:
+{
+=Dikonfirmasi dengan bukti lain
+~Digunakan langsung
+~Diabaikan
+~Disimpan saja
+}
+
+::Domain1-63 Audit Trail::
+Audit trail digunakan untuk:
+{
+=Melacak transaksi
+~Menghapus data
+~Backup data
+~Encrypt data
+}
+
+::Domain1-64 Logging Control::
+Logging termasuk:
+{
+=Detective control
+~Preventive control
+~Corrective control
+~Directive control
+}
+
+::Domain1-65 Segregation of Duties::
+Tujuan SoD adalah:
+{
+=Mencegah fraud
+~Mempercepat proses
+~Mengurangi biaya
+~Menghapus audit
+}
+
+::Domain1-66 SoD Violation::
+Jika satu orang mengontrol semua proses:
+{
+=Risiko fraud meningkat
+~Risiko nol
+~Efisiensi tinggi tanpa risiko
+~Audit tidak perlu
+}
+
+::Domain1-67 CAATs Scenario::
+Auditor menggunakan software untuk analisis data:
+{
+=CAATs
+~Manual audit
+~Observation
+~Interview
+}
+
+::Domain1-68 Data Integrity::
+Integritas data berarti:
+{
+=Data akurat dan lengkap
+~Data cepat
+~Data besar
+~Data murah
+}
+
+::Domain1-69 Data Confidentiality::
+Confidentiality berarti:
+{
+=Data hanya diakses yang berwenang
+~Data selalu tersedia
+~Data cepat
+~Data murah
+}
+
+::Domain1-70 Data Availability::
+Availability berarti:
+{
+=Data tersedia saat dibutuhkan
+~Data rahasia
+~Data akurat
+~Data murah
+}
+
+::Domain1-71 Audit Objective Scenario::
+Tujuan audit tidak jelas akan menyebabkan:
+{
+=Audit tidak efektif
+~Audit lebih cepat
+~Audit murah
+~Audit mudah
+}
+
+::Domain1-72 Materiality Scenario::
+Jika kesalahan kecil tidak signifikan:
+{
+=Tidak material
+~Material
+~Kritis
+~Fatal
+}
+
+::Domain1-73 Evidence Scenario::
+Bukti tidak relevan maka:
+{
+=Tidak digunakan
+~Digunakan langsung
+~Diperbanyak
+~Disimpan saja
+}
+
+::Domain1-74 Audit Program Scenario::
+Audit program yang baik harus:
+{
+=Detail dan terstruktur
+~Pendek saja
+~Umum saja
+~Rahasia saja
+}
+
+::Domain1-75 Audit Documentation::
+Dokumentasi audit penting untuk:
+{
+=Review dan bukti audit
+~Menghapus audit
+~Mengurangi data
+~Mengganti sistem
+}
+
+::Domain1-76 Follow-up Scenario::
+Jika rekomendasi tidak diterapkan:
+{
+=Perlu follow-up
+~Audit selesai
+~Tidak masalah
+~Audit dihapus
+}
+
+::Domain1-77 Communication Scenario::
+Komunikasi buruk menyebabkan:
+{
+=Kesalahpahaman
+~Efisiensi tinggi
+~Audit cepat
+~Audit murah
+}
+
+::Domain1-78 Sampling Risk::
+Sampling risk adalah:
+{
+=Risiko sampel tidak representatif
+~Risiko data hilang
+~Risiko audit selesai
+~Risiko nol
+}
+
+::Domain1-79 Stratified Sampling::
+Digunakan untuk:
+{
+=Mengelompokkan populasi
+~Menghapus data
+~Mengganti data
+~Menghindari audit
+}
+
+::Domain1-80 Random Sampling::
+Random sampling berarti:
+{
+=Pemilihan acak
+~Pemilihan manual
+~Pemilihan subjektif
+~Pemilihan tetap
+}
+
+::Domain1-81 Judgment Sampling::
+Dilakukan berdasarkan:
+{
+=Pengalaman auditor
+~Random
+~Statistik
+~Software
+}
+
+::Domain1-82 Evidence Timing::
+Bukti yang paling baik adalah:
+{
+=Up-to-date
+~Lama
+~Tidak relevan
+~Tidak lengkap
+}
+
+::Domain1-83 Audit Scope Change::
+Perubahan scope harus:
+{
+=Disetujui
+~Langsung dilakukan
+~Diabaikan
+~Ditolak
+}
+
+::Domain1-84 Fraud Indicator::
+Indikator fraud termasuk:
+{
+=Transaksi tidak biasa
+~Transaksi normal
+~Data lengkap
+~Data valid
+}
+
+::Domain1-85 Red Flag::
+Red flag berarti:
+{
+=Indikasi masalah
+~Keamanan tinggi
+~Data valid
+~Audit selesai
+}
+
+::Domain1-86 Continuous Audit Benefit::
+Manfaat utama:
+{
+=Deteksi dini
+~Biaya tinggi
+~Waktu lama
+~Risiko tinggi
+}
+
+::Domain1-87 Audit Limitation::
+Audit memiliki keterbatasan:
+{
+=Tidak menjamin bebas risiko
+~Menghapus semua risiko
+~Menghindari kesalahan
+~Menjamin keamanan
+}
+
+::Domain1-88 Evidence Cost::
+Auditor harus mempertimbangkan:
+{
+=Cost vs benefit
+~Cost saja
+~Benefit saja
+~Tidak keduanya
+}
+
+::Domain1-89 IT Dependency::
+Audit SI penting karena:
+{
+=Bisnis bergantung pada TI
+~TI tidak penting
+~Manual cukup
+~TI mahal
+}
+
+::Domain1-90 Governance::
+IT governance memastikan:
+{
+=TI mendukung bisnis
+~TI berdiri sendiri
+~TI tidak perlu
+~TI mahal
+}
+
+::Domain1-91 Risk Appetite::
+Risk appetite adalah:
+{
+=Tingkat risiko yang diterima
+~Risiko nol
+~Risiko tinggi
+~Risiko rendah
+}
+
+::Domain1-92 Residual Risk::
+Residual risk adalah:
+{
+=Risiko setelah kontrol
+~Risiko sebelum kontrol
+~Risiko nol
+~Risiko audit
+}
+
+::Domain1-93 Control Design::
+Kontrol yang baik harus:
+{
+=Efektif dan efisien
+~Mahal
+~Rumit
+~Banyak
+}
+
+::Domain1-94 Control Implementation::
+Kontrol gagal jika:
+{
+=Tidak dijalankan
+~Dirancang
+~Didokumentasikan
+~Direncanakan
+}
+
+::Domain1-95 Evidence Source::
+Sumber terbaik:
+{
+=Eksternal independen
+~Internal saja
+~Wawancara
+~Opini
+}
+
+::Domain1-96 Audit Opinion::
+Opini audit berdasarkan:
+{
+=Bukti audit
+~Opini pribadi
+~Keinginan manajemen
+~Perasaan
+}
+
+::Domain1-97 Audit Report Finding::
+Temuan audit harus:
+{
+=Didukung bukti
+~Opini saja
+~Pendapat
+~Perasaan
+}
+
+::Domain1-98 Root Cause::
+Analisis root cause bertujuan:
+{
+=Menemukan penyebab utama
+~Menghapus data
+~Mengganti sistem
+~Menghindari audit
+}
+
+::Domain1-99 Recommendation::
+Rekomendasi harus:
+{
+=Praktis dan dapat diterapkan
+~Teoritis
+~Rumit
+~Tidak jelas
+}
+
+::Domain1-100 Audit Closure::
+Audit selesai jika:
+{
+=Laporan disetujui
+~Audit dimulai
+~Data dikumpulkan
+~Interview selesai
+}
