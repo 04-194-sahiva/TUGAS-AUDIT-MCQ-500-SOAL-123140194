@@ -1,0 +1,902 @@
+$CATEGORY: Domain 3 - Information Systems Acquisition, Development and Implementation
+
+::Domain3-01 Business Case::
+Tujuan business case dalam proyek TI adalah:
+{
+=Menilai kelayakan dan manfaat proyek
+~Menghapus risiko
+~Mengganti sistem lama
+~Menghindari audit
+}
+
+::Domain3-02 Feasibility Study::
+Feasibility study mencakup:
+{
+=Teknis, ekonomi, dan operasional
+~Hanya teknis
+~Hanya ekonomi
+~Hanya operasional
+}
+
+::Domain3-03 Project Governance::
+Project governance bertujuan:
+{
+=Mengontrol proyek agar sesuai tujuan
+~Menghapus proyek
+~Menghindari risiko
+~Mengganti user
+}
+
+::Domain3-04 SDLC::
+SDLC adalah:
+{
+=Metodologi pengembangan sistem
+~Software
+~Hardware
+~Database
+}
+
+::Domain3-05 SDLC Phase::
+Tahap pertama SDLC adalah:
+{
+=Requirement analysis
+~Testing
+~Deployment
+~Maintenance
+}
+
+::Domain3-06 Requirement::
+Requirement harus:
+{
+=Jelas dan terdokumentasi
+~Umum saja
+~Tidak perlu
+~Rahasia
+}
+
+::Domain3-07 Functional Requirement::
+Functional requirement menjelaskan:
+{
+=Fungsi sistem
+~Teknologi
+~Hardware
+~Jaringan
+}
+
+::Domain3-08 Non-functional Requirement::
+Non-functional requirement mencakup:
+{
+=Performance dan security
+~Fungsi sistem
+~Data saja
+~User saja
+}
+
+::Domain3-09 Agile::
+Agile methodology bersifat:
+{
+=Iteratif dan fleksibel
+~Linear
+~Kaku
+~Sekali jalan
+}
+
+::Domain3-10 Waterfall::
+Waterfall bersifat:
+{
+=Sequential
+~Iteratif
+~Fleksibel
+~Random
+}
+
+::Domain3-11 Project Risk::
+Risiko proyek harus:
+{
+=Diidentifikasi sejak awal
+~Diabaikan
+~Dihapus
+~Diganti
+}
+
+::Domain3-12 Control Design::
+Kontrol harus:
+{
+=Dirancang sejak awal
+~Setelah implementasi
+~Tidak perlu
+~Opsional
+}
+
+::Domain3-13 Segregation SDLC::
+SoD dalam SDLC penting untuk:
+{
+=Mencegah fraud
+~Mempercepat coding
+~Mengurangi biaya
+~Menghapus audit
+}
+
+::Domain3-14 Change Request::
+Change request harus:
+{
+=Didokumentasikan
+~Langsung dilakukan
+~Diabaikan
+~Dihapus
+}
+
+::Domain3-15 Version Control::
+Digunakan untuk:
+{
+=Mengelola perubahan kode
+~Menghapus kode
+~Backup data
+~Audit
+}
+
+::Domain3-16 Code Review::
+Code review bertujuan:
+{
+=Menjamin kualitas kode
+~Menghapus bug
+~Mengganti sistem
+~Menghindari audit
+}
+
+::Domain3-17 Testing Objective::
+Testing bertujuan:
+{
+=Memastikan sistem sesuai requirement
+~Menghapus risiko
+~Menghindari audit
+~Mengganti sistem
+}
+
+::Domain3-18 Unit Testing::
+Dilakukan oleh:
+{
+=Developer
+~User
+~Auditor
+~Manajemen
+}
+
+::Domain3-19 Integration Testing::
+Bertujuan:
+{
+=Menguji integrasi modul
+~Menghapus data
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-20 UAT::
+User Acceptance Testing dilakukan oleh:
+{
+=User
+~Developer
+~Auditor
+~Vendor
+}
+
+::Domain3-21 Regression Testing::
+Digunakan untuk:
+{
+=Memastikan perubahan tidak merusak sistem
+~Menghapus bug
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-22 Test Data::
+Test data harus:
+{
+=Representatif
+~Random
+~Sedikit
+~Tidak penting
+}
+
+::Domain3-23 Test Environment::
+Test environment harus:
+{
+=Terpisah dari produksi
+~Sama dengan produksi
+~Tidak perlu
+~Random
+}
+
+::Domain3-24 Migration::
+Migration adalah:
+{
+=Pemindahan sistem ke produksi
+~Menghapus sistem
+~Backup data
+~Audit
+}
+
+::Domain3-25 Deployment::
+Deployment berarti:
+{
+=Implementasi sistem
+~Menghapus sistem
+~Menghindari audit
+~Mengganti user
+}
+
+::Domain3-26 Go-live::
+Go-live berarti:
+{
+=Sistem mulai digunakan
+~Testing
+~Development
+~Audit
+}
+
+::Domain3-27 Rollback::
+Rollback digunakan untuk:
+{
+=Mengembalikan sistem ke kondisi sebelumnya
+~Menghapus data
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-28 Configuration Management::
+Digunakan untuk:
+{
+=Mengelola konfigurasi sistem
+~Menghapus sistem
+~Mengganti user
+~Audit
+}
+
+::Domain3-29 Release Management::
+Bertujuan:
+{
+=Mengelola rilis sistem
+~Menghapus sistem
+~Mengganti user
+~Audit
+}
+
+::Domain3-30 Patch Management::
+Digunakan untuk:
+{
+=Memperbaiki bug dan vulnerability
+~Menghapus sistem
+~Mengganti user
+~Audit
+}
+$CATEGORY: Domain 3 - Information Systems Acquisition, Development and Implementation
+
+::Domain3-31 Project Charter::
+Project charter berfungsi untuk:
+{
+=Memberikan otorisasi proyek
+~Menghapus proyek
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-32 Stakeholder::
+Stakeholder adalah:
+{
+=Pihak yang berkepentingan
+~User saja
+~Developer saja
+~Auditor saja
+}
+
+::Domain3-33 Project Scope::
+Scope proyek harus:
+{
+=Jelas dan terdokumentasi
+~Umum saja
+~Tidak perlu
+~Rahasia
+}
+
+::Domain3-34 Scope Creep::
+Scope creep adalah:
+{
+=Perubahan scope tanpa kontrol
+~Perencanaan scope
+~Dokumentasi scope
+~Audit scope
+}
+
+::Domain3-35 Risk Register::
+Risk register digunakan untuk:
+{
+=Mencatat risiko proyek
+~Menghapus risiko
+~Menghindari audit
+~Mengganti sistem
+}
+
+::Domain3-36 Project Schedule::
+Schedule digunakan untuk:
+{
+=Mengatur timeline proyek
+~Menghapus proyek
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-37 Critical Path::
+Critical path adalah:
+{
+=Jalur terpanjang proyek
+~Jalur tercepat
+~Jalur termurah
+~Jalur random
+}
+
+::Domain3-38 Gantt Chart::
+Digunakan untuk:
+{
+=Visualisasi jadwal proyek
+~Menghapus data
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-39 Quality Assurance::
+QA bertujuan:
+{
+=Menjamin kualitas proses
+~Menghapus bug
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-40 Quality Control::
+QC bertujuan:
+{
+=Memeriksa hasil
+~Menghapus proses
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-41 DevOps::
+DevOps bertujuan:
+{
+=Integrasi development dan operasi
+~Menghapus sistem
+~Menghindari audit
+~Mengganti user
+}
+
+::Domain3-42 CI/CD::
+CI/CD berarti:
+{
+=Continuous Integration dan Delivery
+~Control Internal
+~Change Implementation
+~Critical Integration
+}
+
+::Domain3-43 Code Repository::
+Repository digunakan untuk:
+{
+=Menyimpan kode
+~Menghapus kode
+~Audit
+~Backup saja
+}
+
+::Domain3-44 Access Control Dev::
+Akses ke repository harus:
+{
+=Dibatasi
+~Bebas
+~Publik
+~Tidak perlu
+}
+
+::Domain3-45 Segregation Dev::
+Developer tidak boleh:
+{
+=Deploy ke produksi
+~Menulis kode
+~Testing
+~Dokumentasi
+}
+
+::Domain3-46 Environment Separation::
+Environment harus:
+{
+=Terpisah (dev, test, prod)
+~Digabung
+~Tidak perlu
+~Random
+}
+
+::Domain3-47 Data Migration Risk::
+Risiko migration:
+{
+=Data loss
+~Tidak ada risiko
+~Selalu aman
+~Cepat
+}
+
+::Domain3-48 Data Conversion::
+Conversion berarti:
+{
+=Mengubah format data
+~Menghapus data
+~Backup
+~Audit
+}
+
+::Domain3-49 Parallel Run::
+Parallel run berarti:
+{
+=Sistem lama dan baru berjalan bersama
+~Sistem lama dihapus
+~Sistem baru langsung jalan
+~Audit
+}
+
+::Domain3-50 Pilot Run::
+Pilot run dilakukan:
+{
+=Pada sebagian user
+~Seluruh user
+~Tidak perlu
+~Random
+}
+
+::Domain3-51 Big Bang Implementation::
+Big bang berarti:
+{
+=Implementasi langsung penuh
+~Bertahap
+~Sebagian
+~Audit
+}
+
+::Domain3-52 Rollout Strategy::
+Strategi rollout harus:
+{
+=Direncanakan
+~Random
+~Tidak perlu
+~Cepat saja
+}
+
+::Domain3-53 Post Implementation Review::
+PIR bertujuan:
+{
+=Menilai keberhasilan sistem
+~Menghapus sistem
+~Audit saja
+~Mengganti user
+}
+
+::Domain3-54 Benefits Realization::
+Digunakan untuk:
+{
+=Menilai manfaat proyek
+~Menghapus proyek
+~Audit
+~Mengganti sistem
+}
+
+::Domain3-55 Change Approval::
+Perubahan harus:
+{
+=Disetujui
+~Langsung dilakukan
+~Diabaikan
+~Dihapus
+}
+
+::Domain3-56 Emergency Fix::
+Harus:
+{
+=Didokumentasikan
+~Diabaikan
+~Langsung dilakukan tanpa catatan
+~Dihapus
+}
+
+::Domain3-57 Version Control Risk::
+Tanpa version control:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-58 Testing Coverage::
+Testing harus:
+{
+=Komprehensif
+~Sedikit
+~Tidak perlu
+~Random
+}
+
+::Domain3-59 Defect Tracking::
+Digunakan untuk:
+{
+=Melacak bug
+~Menghapus bug
+~Mengganti sistem
+~Audit
+}
+
+::Domain3-60 UAT Approval::
+UAT harus:
+{
+=Disetujui user
+~Developer
+~Auditor
+~Vendor
+}
+
+::Domain3-61 Scenario Requirement::
+Requirement tidak jelas:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-62 Scenario Testing::
+Testing tidak lengkap:
+{
+=Risiko error
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-63 Scenario Migration::
+Migration gagal:
+{
+=Operasional terganggu
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-64 Scenario Change::
+Change tanpa approval:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-65 Scenario Dev Access::
+Developer akses produksi:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-66 Scenario Version::
+Tidak ada version control:
+{
+=Konflik kode
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-67 Scenario UAT::
+UAT tidak dilakukan:
+{
+=Sistem tidak valid
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-68 Scenario Deployment::
+Deployment gagal:
+{
+=Downtime
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-69 Scenario Rollback::
+Tidak ada rollback:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-70 Scenario Testing Data::
+Data test tidak valid:
+{
+=Hasil tidak akurat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-71 Scenario QA::
+QA tidak ada:
+{
+=Kualitas rendah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-72 Scenario Scope::
+Scope berubah terus:
+{
+=Scope creep
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-73 Scenario Risk::
+Risk tidak dicatat:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-74 Scenario Schedule::
+Schedule tidak jelas:
+{
+=Delay proyek
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-75 Scenario Stakeholder::
+Stakeholder tidak dilibatkan:
+{
+=Risiko gagal
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-76 Scenario DevOps::
+Tidak ada DevOps:
+{
+=Proses lambat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-77 Scenario CI/CD::
+Tidak ada CI/CD:
+{
+=Integrasi lambat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-78 Scenario Repo::
+Repo tidak aman:
+{
+=Risiko kebocoran
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-79 Scenario Access::
+Akses tidak dibatasi:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-80 Scenario Config::
+Config tidak dikelola:
+{
+=Error sistem
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-81 Scenario Release::
+Release tidak terkontrol:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-82 Scenario Patch::
+Patch tidak dilakukan:
+{
+=Vulnerability
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-83 Scenario PIR::
+Tidak ada PIR:
+{
+=Tidak tahu hasil proyek
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-84 Scenario Benefit::
+Benefit tidak tercapai:
+{
+=Proyek gagal
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-85 Scenario Conversion::
+Conversion salah:
+{
+=Data error
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-86 Scenario Parallel::
+Parallel tidak dilakukan:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-87 Scenario Pilot::
+Pilot tidak ada:
+{
+=Risiko implementasi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-88 Scenario BigBang::
+Big bang gagal:
+{
+=Gangguan besar
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-89 Scenario Rollout::
+Rollout tidak jelas:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-90 Scenario Approval::
+Tidak ada approval:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-91 Scenario Emergency::
+Emergency change tidak dicatat:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-92 Scenario Testing Env::
+Env test sama dengan prod:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-93 Scenario Data Migration::
+Data hilang:
+{
+=Risiko besar
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-94 Scenario Code Review::
+Tidak ada code review:
+{
+=Bug tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-95 Scenario Requirement Change::
+Requirement berubah:
+{
+=Perlu kontrol change
+~Diabaikan
+~Dihapus
+~Diganti user
+}
+
+::Domain3-96 Scenario QA QC::
+QA/QC lemah:
+{
+=Kualitas rendah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-97 Scenario Dev Access Prod::
+Dev akses prod:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-98 Scenario Deployment Plan::
+Tidak ada plan:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-99 Scenario Risk Mgmt::
+Risk tidak dikelola:
+{
+=Ancaman tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain3-100 Objective Domain3::
+Tujuan domain ini:
+{
+=Memastikan sistem dikembangkan dan diimplementasi dengan baik
+~Menghapus sistem
+~Menghindari audit
+~Mengganti user
+}
