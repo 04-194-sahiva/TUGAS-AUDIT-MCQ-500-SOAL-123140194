@@ -1,0 +1,902 @@
+$CATEGORY: Domain 5 - Protection of Information Assets
+
+::Domain5-01 Objective::
+Tujuan utama keamanan informasi adalah:
+{
+=Melindungi aset informasi
+~Menghapus data
+~Menghindari audit
+~Mengganti sistem
+}
+
+::Domain5-02 CIA Triad::
+CIA terdiri dari:
+{
+=Confidentiality, Integrity, Availability
+~Control, Integrity, Audit
+~Confidential, Internal, Access
+~Control, Information, Access
+}
+
+::Domain5-03 Confidentiality::
+Confidentiality berarti:
+{
+=Data hanya diakses pihak berwenang
+~Data bebas diakses
+~Data dihapus
+~Data tidak penting
+}
+
+::Domain5-04 Integrity::
+Integrity berarti:
+{
+=Data akurat dan utuh
+~Data dihapus
+~Data bebas diakses
+~Data tidak penting
+}
+
+::Domain5-05 Availability::
+Availability berarti:
+{
+=Data tersedia saat dibutuhkan
+~Data dihapus
+~Data bebas diakses
+~Data tidak penting
+}
+
+::Domain5-06 Authentication::
+Authentication adalah:
+{
+=Verifikasi identitas
+~Memberi akses
+~Menghapus data
+~Audit
+}
+
+::Domain5-07 Authorization::
+Authorization adalah:
+{
+=Pemberian hak akses
+~Verifikasi identitas
+~Menghapus data
+~Audit
+}
+
+::Domain5-08 Accounting::
+Accounting berarti:
+{
+=Pencatatan aktivitas user
+~Menghapus data
+~Audit saja
+~Login
+}
+
+::Domain5-09 Access Control::
+Digunakan untuk:
+{
+=Mengatur akses
+~Menghapus data
+~Audit
+~Mengganti sistem
+}
+
+::Domain5-10 Least Privilege::
+Prinsip:
+{
+=Akses minimum diperlukan
+~Akses penuh
+~Akses bebas
+~Tanpa akses
+}
+
+::Domain5-11 Segregation of Duties::
+Digunakan untuk:
+{
+=Mencegah fraud
+~Mempercepat kerja
+~Menghapus data
+~Audit
+}
+
+::Domain5-12 Strong Password::
+Password kuat:
+{
+=Sulit ditebak
+~Pendek
+~Nama sendiri
+~Tanggal lahir
+}
+
+::Domain5-13 MFA::
+MFA berarti:
+{
+=Lebih dari satu faktor autentikasi
+~Satu password
+~Tanpa password
+~Login bebas
+}
+
+::Domain5-14 Biometric::
+Contoh:
+{
+=Fingerprint
+~Password
+~PIN
+~Username
+}
+
+::Domain5-15 Encryption::
+Digunakan untuk:
+{
+=Melindungi data
+~Menghapus data
+~Audit
+~Mengganti sistem
+}
+
+::Domain5-16 Symmetric Encryption::
+Menggunakan:
+{
+=Satu kunci
+~Dua kunci
+~Tanpa kunci
+~Password saja
+}
+
+::Domain5-17 Asymmetric Encryption::
+Menggunakan:
+{
+=Public dan private key
+~Satu key
+~Tanpa key
+~Password
+}
+
+::Domain5-18 Hashing::
+Digunakan untuk:
+{
+=Integrity
+~Confidentiality
+~Availability
+~Audit
+}
+
+::Domain5-19 Digital Signature::
+Digunakan untuk:
+{
+=Autentikasi & integritas
+~Menghapus data
+~Audit
+~Backup
+}
+
+::Domain5-20 Firewall::
+Digunakan untuk:
+{
+=Kontrol trafik jaringan
+~Menghapus data
+~Audit
+~Backup
+}
+
+::Domain5-21 IDS::
+IDS bertujuan:
+{
+=Mendeteksi serangan
+~Mencegah saja
+~Menghapus data
+~Audit
+}
+
+::Domain5-22 IPS::
+IPS bertujuan:
+{
+=Mencegah serangan
+~Hanya deteksi
+~Menghapus data
+~Audit
+}
+
+::Domain5-23 Antivirus::
+Digunakan untuk:
+{
+=Melindungi dari malware
+~Menghapus data
+~Audit
+~Backup
+}
+
+::Domain5-24 Malware::
+Contoh malware:
+{
+=Virus
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-25 Phishing::
+Phishing adalah:
+{
+=Penipuan untuk mencuri data
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-26 Social Engineering::
+Berarti:
+{
+=Manipulasi manusia
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-27 VPN::
+VPN digunakan untuk:
+{
+=Koneksi aman
+~Menghapus data
+~Audit
+~Backup
+}
+
+::Domain5-28 Network Security::
+Bertujuan:
+{
+=Melindungi jaringan
+~Menghapus data
+~Audit
+~Backup
+}
+
+::Domain5-29 Data Classification::
+Digunakan untuk:
+{
+=Mengelompokkan data
+~Menghapus data
+~Audit
+~Backup
+}
+
+::Domain5-30 Data Owner::
+Bertanggung jawab:
+{
+=Klasifikasi data
+~Menghapus data
+~Audit
+~Backup
+}
+$CATEGORY: Domain 5 - Protection of Information Assets
+
+::Domain5-31 Data Custodian::
+Bertanggung jawab:
+{
+=Menjaga keamanan data
+~Klasifikasi data
+~Audit saja
+~Menghapus data
+}
+
+::Domain5-32 Data User::
+User bertanggung jawab:
+{
+=Menggunakan data sesuai aturan
+~Menghapus data
+~Audit
+~Backup
+}
+
+::Domain5-33 Logical Access::
+Berarti:
+{
+=Akses sistem secara digital
+~Akses fisik
+~Backup
+~Audit
+}
+
+::Domain5-34 Physical Access::
+Berarti:
+{
+=Akses ke fasilitas
+~Akses sistem
+~Backup
+~Audit
+}
+
+::Domain5-35 Authentication Factor::
+Contoh:
+{
+=Password
+~Nama
+~Alamat
+~Email
+}
+
+::Domain5-36 Something You Know::
+Contoh:
+{
+=PIN
+~Fingerprint
+~Token
+~Kartu
+}
+
+::Domain5-37 Something You Have::
+Contoh:
+{
+=Token
+~Password
+~PIN
+~Nama
+}
+
+::Domain5-38 Something You Are::
+Contoh:
+{
+=Biometrik
+~Password
+~PIN
+~Token
+}
+
+::Domain5-39 Brute Force::
+Serangan:
+{
+=Menebak password
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-40 Dictionary Attack::
+Menggunakan:
+{
+=Kamus kata
+~Random
+~Backup
+~Audit
+}
+
+::Domain5-41 Session Hijacking::
+Berarti:
+{
+=Mengambil alih sesi
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-42 Man-in-the-Middle::
+Berarti:
+{
+=Intercept komunikasi
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-43 DoS::
+Tujuan:
+{
+=Mengganggu layanan
+~Melindungi data
+~Backup
+~Audit
+}
+
+::Domain5-44 DDoS::
+Berarti:
+{
+=Serangan dari banyak sumber
+~Satu sumber
+~Backup
+~Audit
+}
+
+::Domain5-45 Zero-Day::
+Adalah:
+{
+=Kerentanan baru
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-46 Patch::
+Digunakan untuk:
+{
+=Memperbaiki vulnerability
+~Menghapus data
+~Audit
+~Backup
+}
+
+::Domain5-47 Vulnerability::
+Berarti:
+{
+=Kelemahan sistem
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-48 Threat::
+Berarti:
+{
+=Ancaman
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-49 Risk::
+Berarti:
+{
+=Kemungkinan kerugian
+~Backup
+~Audit
+~Firewall
+}
+
+::Domain5-50 Risk Treatment::
+Pilihan:
+{
+=Mitigate
+~Delete
+~Ignore saja
+~Backup
+}
+
+::Domain5-51 Scenario Password::
+Password lemah:
+{
+=Mudah diretas
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-52 Scenario MFA::
+Tanpa MFA:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-53 Scenario Access::
+Akses berlebih:
+{
+=Risiko fraud
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-54 Scenario SoD::
+Tidak ada SoD:
+{
+=Fraud tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-55 Scenario Encryption::
+Tanpa enkripsi:
+{
+=Data bocor
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-56 Scenario Hash::
+Hash tidak digunakan:
+{
+=Integrity lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-57 Scenario Firewall::
+Firewall tidak ada:
+{
+=Jaringan terbuka
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-58 Scenario IDS::
+IDS tidak ada:
+{
+=Serangan tidak terdeteksi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-59 Scenario IPS::
+IPS tidak ada:
+{
+=Serangan tidak dicegah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-60 Scenario Antivirus::
+Tidak ada antivirus:
+{
+=Malware mudah masuk
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-61 Scenario Phishing::
+User klik phishing:
+{
+=Data dicuri
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-62 Scenario Social Engineering::
+User tertipu:
+{
+=Kebocoran data
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-63 Scenario VPN::
+Tanpa VPN:
+{
+=Koneksi tidak aman
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-64 Scenario Network::
+Jaringan tidak aman:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-65 Scenario Classification::
+Data tidak diklasifikasi:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-66 Scenario Owner::
+Tidak ada owner:
+{
+=Tidak jelas tanggung jawab
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-67 Scenario Custodian::
+Custodian tidak jelas:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-68 Scenario User::
+User tidak patuh:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-69 Scenario Logical Access::
+Akses tidak dikontrol:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-70 Scenario Physical::
+Akses fisik bebas:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-71 Scenario Brute Force::
+Tidak ada proteksi:
+{
+=Password mudah dibobol
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-72 Scenario MITM::
+Tidak ada enkripsi:
+{
+=Data disadap
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-73 Scenario DoS::
+Server diserang:
+{
+=Layanan down
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-74 Scenario Zero Day::
+Tidak siap:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-75 Scenario Patch::
+Patch tidak update:
+{
+=Vulnerability tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-76 Scenario Vulnerability::
+Tidak diperbaiki:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-77 Scenario Threat::
+Ancaman diabaikan:
+{
+=Risiko meningkat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-78 Scenario Risk::
+Risk tidak dinilai:
+{
+=Keputusan salah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-79 Scenario Treatment::
+Tidak ada treatment:
+{
+=Risiko tidak terkendali
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-80 Scenario Monitoring::
+Tidak ada monitoring:
+{
+=Ancaman tidak terlihat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-81 Scenario Logging::
+Log tidak ada:
+{
+=Tidak bisa audit
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-82 Scenario SIEM::
+SIEM tidak digunakan:
+{
+=Analisis lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-83 Scenario Backup Security::
+Backup tidak aman:
+{
+=Data bocor
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-84 Scenario Cloud::
+Cloud tidak aman:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-85 Scenario Mobile::
+Device tidak aman:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-86 Scenario BYOD::
+BYOD tanpa kontrol:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-87 Scenario Endpoint::
+Endpoint tidak aman:
+{
+=Serangan mudah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-88 Scenario Encryption Key::
+Key bocor:
+{
+=Data terancam
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-89 Scenario Key Mgmt::
+Key tidak dikelola:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-90 Scenario Access Review::
+Tidak ada review:
+{
+=Akses berlebih
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-91 Scenario Privilege::
+Privilege tinggi:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-92 Scenario Insider::
+Insider threat:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-93 Scenario Data Leak::
+Data bocor:
+{
+=Kerugian besar
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-94 Scenario Incident Security::
+Incident tidak ditangani:
+{
+=Dampak besar
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-95 Scenario Response::
+Tidak ada response:
+{
+=Risiko meningkat
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-96 Scenario Awareness::
+User tidak aware:
+{
+=Risiko tinggi
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-97 Scenario Training::
+Tidak ada training:
+{
+=Kesalahan user
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-98 Scenario Policy::
+Tidak ada policy:
+{
+=Kontrol lemah
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-99 Scenario Compliance::
+Tidak patuh:
+{
+=Risiko hukum
+~Aman
+~Efisien
+~Cepat
+}
+
+::Domain5-100 Objective Domain5::
+Tujuan domain ini:
+{
+=Melindungi aset informasi dari ancaman
+~Menghapus sistem
+~Menghindari audit
+~Mengganti user
+}
